@@ -1,14 +1,22 @@
-import {
+
+import{
     postMessageURL,
-    postCommentURL,
-    allMessagesURL,
-    allCommentsURL,
+    postCommentURl,
+    allMessagesURl
 } from './URLConfig';
 
+// class MessageManager {
+//     async postMessage(title,content,images){
+//         try {
+//             const formData=new FormData();
+//             formData.append('access_token')
+//         } catch (error) {
+            
+//         }
+//     }
+// }
+
 class MessageManager {
-
-    
-
     async postMessage(title,content,images){
         try {
             
